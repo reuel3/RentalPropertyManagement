@@ -1,0 +1,52 @@
+{
+  "appPageId" : "0d9fe726-f512-4772-9a6e-be228c104d5a",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "f71246ba-6633-4197-ae04-fcf4fdb3b34d",
+  "label" : "Dashboard",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(0, 71, 178); font-size: 28px;\">﻿</span><span style=\"color: rgb(0, 71, 178);\">Welcome to the Kleck Rental Property Portal!</span></h1>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "eb4bae65-db7a-4b02-a9a2-c3b9bbe7b131",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c23cad81-62cb-4706-914f-ad5f70ed03ae",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "b1305130-e724-4751-8eb9-a16667269f9d",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "0dc2e7d1-d7c5-48e2-810d-3cfa8b27b002",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "16778f04-24a3-403b-82da-4de60bb1508e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Dashboard"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "88b3af54-c18e-407f-852f-f36954cd263f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "df179bac-66b7-486e-a761-d6e2c044c79b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-dashboard"
+}

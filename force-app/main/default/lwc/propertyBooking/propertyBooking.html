@@ -14,7 +14,7 @@
             </template>
             <template if:true={selectedProperty}>
                 <p class="slds-text-title_bold">Available Booking Slots:</p>
-                <div class="scrollable-section" style="height: 200px; overflow-y: auto;" onscroll={handleScroll}>
+                <div class="scrollable-section" style="height: 250px; overflow-y: scroll;" onscroll={handleScroll}>
                     <ul class="slds-m-bottom_medium">
                         <template for:each={displayedSlots} for:item="slot" for:index="index">
                             <li key={slot} class="slds-m-bottom_xx-small">
